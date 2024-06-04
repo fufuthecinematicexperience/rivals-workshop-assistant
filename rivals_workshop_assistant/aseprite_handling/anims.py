@@ -103,7 +103,7 @@ class Anim(TagObject):
         if config_params.has_small_sprites and self._cares_about_small_sprites():
             scale_param = 1
         else:
-            scale_param = 2
+            scale_param = 1
         hurtbox_scale_param = 2
         if config_params.is_ssl:
             scale_param *= 2

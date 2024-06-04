@@ -30,6 +30,7 @@ class AsepriteFileContent:
         self,
         anim_tag_colors: List["TagColor"],
         window_tag_colors: List["TagColor"],
+        layer_tag_colors: List["TagColor"],
         file_data: "RawAsepriteFile",
         is_fresh: bool = False,
         layers: "AsepriteLayers" = None,  # just so it can be mocked
@@ -37,6 +38,7 @@ class AsepriteFileContent:
         self.file_data = file_data
         self.anim_tag_colors = anim_tag_colors
         self.window_tag_colors = window_tag_colors
+        self.layer_tag_colors = layer_tag_colors
         self.is_fresh = is_fresh
 
         if layers is None and file_data is not None:

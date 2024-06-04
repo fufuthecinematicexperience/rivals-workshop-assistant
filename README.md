@@ -1,5 +1,5 @@
-# Rivals Workshop Assistant
+# personal edit
 
-An all-in-one tool for automating Rivals of Aether modding tasks
+dont merge this with main
 
 [Official docs](https://rivalslib.com/assistant/)
